@@ -1,0 +1,38 @@
+<annotation>
+<folder>train/</folder>
+<filename>0ed5d00d-842f-4808-95d7-73cb77513d3b___set7_587.JPG</filename>
+<path>train/0ed5d00d-842f-4808-95d7-73cb77513d3b___set7_587.JPG</path>
+<source>
+	<database>Unknown</database>
+</source>
+<size>
+	<width>1024</width>
+	<height>768</height>
+	<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+	<name>six</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>543</xmin>
+		<ymin>373</ymin>
+		<xmax>589</xmax>
+		<ymax>417</ymax>
+	</bndbox>
+</object>
+<object>
+	<name>two</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>489</xmin>
+		<ymin>368</ymin>
+		<xmax>525</xmax>
+		<ymax>417</ymax>
+	</bndbox>
+</object>
+</annotation>

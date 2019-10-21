@@ -1,0 +1,26 @@
+<annotation>
+<folder>train/</folder>
+<filename>c88322cc-da06-42c9-8076-6841ee5e7860___set5_332.JPG</filename>
+<path>train/c88322cc-da06-42c9-8076-6841ee5e7860___set5_332.JPG</path>
+<source>
+	<database>Unknown</database>
+</source>
+<size>
+	<width>1024</width>
+	<height>768</height>
+	<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+	<name>plate</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>375</xmin>
+		<ymin>566</ymin>
+		<xmax>574</xmax>
+		<ymax>655</ymax>
+	</bndbox>
+</object>
+</annotation>
