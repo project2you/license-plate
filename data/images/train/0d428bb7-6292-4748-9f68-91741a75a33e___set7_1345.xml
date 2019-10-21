@@ -1,0 +1,74 @@
+<annotation>
+<folder>train/</folder>
+<filename>0d428bb7-6292-4748-9f68-91741a75a33e___set7_1345.JPG</filename>
+<path>train/0d428bb7-6292-4748-9f68-91741a75a33e___set7_1345.JPG</path>
+<source>
+	<database>Unknown</database>
+</source>
+<size>
+	<width>1024</width>
+	<height>768</height>
+	<depth>3</depth>
+</size>
+<segmented>0</segmented>
+<object>
+	<name>one</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>519</xmin>
+		<ymin>274</ymin>
+		<xmax>560</xmax>
+		<ymax>340</ymax>
+	</bndbox>
+</object>
+<object>
+	<name>three</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>485</xmin>
+		<ymin>276</ymin>
+		<xmax>524</xmax>
+		<ymax>344</ymax>
+	</bndbox>
+</object>
+<object>
+	<name>seven</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>553</xmin>
+		<ymin>269</ymin>
+		<xmax>599</xmax>
+		<ymax>344</ymax>
+	</bndbox>
+</object>
+<object>
+	<name>seven</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>445</xmin>
+		<ymin>277</ymin>
+		<xmax>492</xmax>
+		<ymax>342</ymax>
+	</bndbox>
+</object>
+<object>
+	<name>six</name>
+	<pose>Unspecified</pose>
+	<truncated>0</truncated>
+	<difficult>0</difficult>
+	<bndbox>
+		<xmin>306</xmin>
+		<ymin>287</ymin>
+		<xmax>355</xmax>
+		<ymax>358</ymax>
+	</bndbox>
+</object>
+</annotation>
