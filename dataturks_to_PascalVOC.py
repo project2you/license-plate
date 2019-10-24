@@ -32,6 +32,7 @@ host_url = 'http://35.247.154.131/'
 limit_train = 5
 k = 0
 folder_name=""
+number_of_train = 0
 
 def zipfolder(foldername, target_dir):            
     zipobj = zipfile.ZipFile(foldername + '.zip', 'w', zipfile.ZIP_DEFLATED)
