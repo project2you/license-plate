@@ -218,7 +218,10 @@ def main():
     success = 0
     print("Number Picture All := ",len(lines))
     #number_of_train = input ("Enter Number for train := ")
-    number_of_train = int(number_of_train) * 10 / 100
+    number_of_train = len(lines)) - (int(number_of_train) * 10 / 100)
+    
+    print("Train data of := ", number_of_train)
+    
     try:
        val = int(number_of_train)
        print("Yes input string is an Integer.")
