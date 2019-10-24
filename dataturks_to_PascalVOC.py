@@ -151,7 +151,6 @@ def convert_to_PascalVOC(dataturks_labeled_item, image_dir, xml_out_dir):
         
         print (' Counter = '+ str(k))
         
-
         xml = "<annotation>\n<folder>" + folder_name + "</folder>\n"
         xml = xml + "<filename>" + fileName +"</filename>\n"
         xml = xml + "<path>" + folder_name + fileName +"</path>\n"
@@ -218,7 +217,8 @@ def main():
     count = 0;
     success = 0
     print("Number Picture All := ",len(lines))
-    number_of_train = input ("Enter Number for train := ")
+    #number_of_train = input ("Enter Number for train := ")
+    number_of_train = int(number_of_train) * 10 / 100
     try:
        val = int(number_of_train)
        print("Yes input string is an Integer.")
