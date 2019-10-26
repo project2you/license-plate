@@ -128,18 +128,15 @@ def convert_to_PascalVOC(dataturks_labeled_item, image_dir, xml_out_dir):
 
         if k <= int(number_of_train):
             folder_name = 'train/'
-            
             if not os.path.exists(folder_name):
                 os.mkdir(folder_name)
                 print("Directory " , folder_name ,  " Created ")
         else:
             folder_name = 'test/'
-            
             if not os.path.exists(folder_name):
                 os.mkdir(folder_name)
                 print("Directory " , folder_name ,  " Created ")
-    
-    
+
         filePath = maybe_download(host_url+""+image_url, image_dir+folder_name)
 
         with Image.open(filePath) as img:
@@ -219,7 +216,7 @@ def main():
     success = 0
     print("Number Picture All := ",len(lines))
     #number_of_train = input ("Enter Number for train := ")
-    number_of_train = int(len(lines)) - int(number_of_train) * 10 / 100
+    number_of_train = int(int(len(lines)) - int(len(lines)) * 10 / 100)
     
     print("Train data of := ", number_of_train)
     
