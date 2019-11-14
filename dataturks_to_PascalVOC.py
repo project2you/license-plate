@@ -128,14 +128,8 @@ def convert_to_PascalVOC(dataturks_labeled_item, image_dir, xml_out_dir):
 
         if k <= int(number_of_train):
             folder_name = 'train/'
-            if not os.path.exists(folder_name):
-                os.mkdir(folder_name)
-                print("Directory " , folder_name ,  " Created ")
         else:
             folder_name = 'test/'
-            if not os.path.exists(folder_name):
-                os.mkdir(folder_name)
-                print("Directory " , folder_name ,  " Created ")
 
         filePath = maybe_download(host_url+""+image_url, image_dir+folder_name)
 
@@ -272,7 +266,7 @@ if __name__ == '__main__':
     #number_of_train = parsed_args.number_of_train
     pascal_voc_xml_dir = str(image_download_dir)
     
-    print(image_download_dir)
+    print(pascal_voc_xml_dir)
     
     #make sure everything is setup.
     if not os.path.exists(image_download_dir):
